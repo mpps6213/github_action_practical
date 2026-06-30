@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: # use the pre-existing github actions to check out the code
+    - uses: actions/.....# use the pre-existing github actions to check out the code
     - name: Set up Python 3.10
       uses: # use the pre-existing github actions to set up python 3.10
       with:
