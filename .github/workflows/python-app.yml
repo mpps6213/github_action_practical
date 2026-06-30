@@ -29,7 +29,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Python Script
       run: |
-        run extractor.py --file document_for_parsing.pdf
+        python extractor.py --file document_for_parsing.pdf
 
     # Step 9a: Login to Docker Hub using the secrets you created
     - name: Login to Docker Hub
