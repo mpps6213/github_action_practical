@@ -18,17 +18,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/.....# use the pre-existing github actions to check out the code
+    - uses: actions/checkout@v4 # use the pre-existing github actions to check out the code
     - name: Set up Python 3.10
-      uses: # use the pre-existing github actions to set up python 3.10
+      uses: actions/setup-python@v5 # use the pre-existing github actions to set up python 3.10
       with:
         python-version: "3.10"
     - name: Install dependencies
       run: |
-        # install requirements.txt
+        install requirements.txt
     - name: Run Python Script
       run: |
-        # run python script
+        run script.py
     
           
   
